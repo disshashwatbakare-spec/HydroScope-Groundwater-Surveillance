@@ -1,0 +1,14 @@
+AquaSentinel Bayesian Belief Network Structure
+==================================================
+
+  bbn_state  ─────────────────────────┐
+  bbn_gwl_depth  ──────────────────────┤
+  bbn_district_urban ──────────────────┼──► bbn_high_ec (Contaminated?)
+  bbn_cluster_risk ────────────────────┤
+  bbn_anomaly ─────────────────────────┘
+
+All edges encode expert knowledge:
+  - Shallow GW depth → higher surface contamination exposure
+  - Urban/industrial districts → higher nitrate/salinity load
+  - High-risk cluster → regional geological contamination prior
+  - Anomaly flag → deviates from local norm → suspect

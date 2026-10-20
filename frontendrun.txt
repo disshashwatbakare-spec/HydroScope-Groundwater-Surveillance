@@ -1,0 +1,8 @@
+# 1. Navigate to the frontend directory
+cd "c:\Data Backup\MIT-WPU\Semester V\ML-Lab\Mini Project\frontend"
+
+# 2. (Optional if already installed) Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev

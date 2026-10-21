@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "AquaSentinel Real Pipeline Outputs",
-    "generatedAt": "2026-10-20T11:54:33.605250+00:00",
+    "generatedAt": "2026-10-21T09:21:33.799211+00:00",
     "totalRecords": 4773,
     "version": "1.0.0"
   },
@@ -13,7 +13,7 @@
     "anomaliesDetected": 616,
     "criticalRiskWells": 21,
     "pendingTestQueue": 50,
-    "lastPipelineRun": "2026-10-20T11:54:33.547353+00:00",
+    "lastPipelineRun": "2026-10-21T09:21:33.756622+00:00",
     "statesMonitored": 3
   },
   "regionalStats": [
